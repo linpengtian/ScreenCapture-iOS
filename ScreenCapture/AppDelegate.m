@@ -16,7 +16,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+        
+    if (!self.bgTask) {
+        self.bgTask = [[BackgroundTask alloc] init];
+    }
+    
+    [self.bgTask startBackgroundTasks:10 target:self selector:@selector(syncData:)];
+        
     return YES;
+}
+
+-(void) syncData:(NSTimer*)timer {
+    NSLog(@"================");
+    
 }
 
 

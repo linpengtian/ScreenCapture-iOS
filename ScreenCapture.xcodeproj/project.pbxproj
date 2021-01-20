@@ -14,6 +14,7 @@
 		64206DA725B08DB0002E957C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64206DA625B08DB0002E957C /* Assets.xcassets */; };
 		64206DAA25B08DB0002E957C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64206DA825B08DB0002E957C /* LaunchScreen.storyboard */; };
 		64206DAD25B08DB0002E957C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64206DAC25B08DB0002E957C /* main.m */; };
+		64945E8D25B7C23D0083C14E /* BackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 64945E8B25B7C23D0083C14E /* BackgroundTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		64206DA925B08DB0002E957C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64206DAB25B08DB0002E957C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64206DAC25B08DB0002E957C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64945E8B25B7C23D0083C14E /* BackgroundTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTask.m; sourceTree = "<group>"; };
+		64945E8C25B7C23D0083C14E /* BackgroundTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTask.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		64206D9925B08DAF002E957C /* ScreenCapture */ = {
 			isa = PBXGroup;
 			children = (
+				64945E8A25B7C2090083C14E /* Libraries */,
 				64206D9A25B08DAF002E957C /* AppDelegate.h */,
 				64206D9B25B08DAF002E957C /* AppDelegate.m */,
 				64206D9D25B08DAF002E957C /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				64206DAC25B08DB0002E957C /* main.m */,
 			);
 			path = ScreenCapture;
+			sourceTree = "<group>";
+		};
+		64945E8A25B7C2090083C14E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				64945E8C25B7C23D0083C14E /* BackgroundTask.h */,
+				64945E8B25B7C23D0083C14E /* BackgroundTask.m */,
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +161,7 @@
 				64206DA225B08DAF002E957C /* ViewController.m in Sources */,
 				64206D9C25B08DAF002E957C /* AppDelegate.m in Sources */,
 				64206DAD25B08DB0002E957C /* main.m in Sources */,
+				64945E8D25B7C23D0083C14E /* BackgroundTask.m in Sources */,
 				64206D9F25B08DAF002E957C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
