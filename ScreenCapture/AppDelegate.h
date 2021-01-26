@@ -10,7 +10,7 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) BackgroundTask * bgTask;
+//@property (strong, nonatomic) BackgroundTask * bgTask;
 
 @end
 

@@ -7,7 +7,12 @@
 
 #import <UIKit/UIKit.h>
 
+#import "BackgroundTask.h"
+
+
 @interface ViewController : UIViewController
+@property (strong, nonatomic) BackgroundTask * bgTask;
+
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 - (IBAction)onStart:(id)sender;
